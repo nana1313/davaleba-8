@@ -1,0 +1,174 @@
+html {
+    background: #f2f2f2;
+  }
+  
+  .logo-holder {
+    background: #f2f2f2;
+    width: 180px;
+    height: 220px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 24px;
+  }
+  
+  .bg {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+  }
+  
+  .bar {
+    position: relative;
+    height: 90px;
+    background: #6a6a6a;
+    top: 0px;
+    left: 18px;
+    margin-top: 8px;
+    box-shadow: 0 5px 3px rgba(192, 192, 192, 0.9);
+    animation: fill 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  .bar.fill1 {
+    animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  .bar.fill2 {
+    animation: fill-2 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  .bar.fill3 {
+    animation: fill-3 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  .bar.fill4 {
+    animation: fill-4 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  .bar.fill5 {
+    animation: fill-5 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  .bar.fill6 {
+    animation: fill-6 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  @keyframes fill {
+    0% {
+      width: 0;
+    }
+    33% {
+      width: 200px;
+    }
+    66% {
+      width: 100px;
+    }
+    100% {
+      width: 550px;
+    }
+  }
+  
+  @keyframes fill-1 {
+    0% {
+      width: 0;
+    }
+    33% {
+      width: 220px;
+    }
+    66% {
+      width: 110px;
+    }
+    100% {
+      width: 375px;
+    }
+  }
+  
+  @keyframes fill-2 {
+    0% {
+      width: 0;
+    }
+    33% {
+      width: 260px;
+    }
+    66% {
+      width: 160px;
+    }
+    100% {
+      width: 481px;
+    }
+  }
+  
+  @keyframes fill-3 {
+    0% {
+      width: 0;
+    }
+    33% {
+      width: 220px;
+    }
+    66% {
+      width: 114px;
+    }
+    100% {
+      width: 254px;
+    }
+  }
+  
+  @keyframes fill-4 {
+    0% {
+      width: 0;
+    }
+    33% {
+      width: 268px;
+    }
+    66% {
+      width: 124px;
+    }
+    100% {
+      width: 544px;
+    }
+  }
+  
+  @keyframes fill-5 {
+    0% {
+      width: 0;
+    }
+    33% {
+      width: 200px;
+    }
+    66% {
+      width: 100px;
+    }
+    100% {
+      width: 293px;
+    }
+  }
+  
+  @keyframes fill-6 {
+    0% {
+      width: 0;
+    }
+    33% {
+      width: 218px;
+    }
+    66% {
+      width: 112px;
+    }
+    100% {
+      width: 405px;
+    }
+  }
+  
+  @keyframes colors {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+  
